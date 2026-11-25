@@ -1,0 +1,9 @@
+id = "viaComponentis"
+name = "viaComponentis"
+version = "0.1.0"
+main_exe = "viaComponentis.exe"
+icon = "src-tauri/icons/icon.ico"
+accent = "#FFFFFF"
+description = "Personal React 19 + TypeScript Learning Roadmap styled as a Monochrome Cyberspace Neural OS"
+needs_webview2 = true
+data_folders = ['%APPDATA%\viaComponentis', '%LOCALAPPDATA%\com.projectgloria.viacomponentis']

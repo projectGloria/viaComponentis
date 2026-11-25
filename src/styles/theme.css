@@ -1,0 +1,167 @@
+:root,
+[data-theme='claude'] {
+  /* Claude Dark Brand Palette (Anthropic / Mobbin) — Read-Friendly Default */
+  --bg-void: #141413;
+  --bg-sidebar: rgba(24, 24, 22, 0.94);
+  --bg-titlebar: rgba(20, 20, 19, 0.95);
+  --bg-tabbar: rgba(22, 22, 20, 0.92);
+  --bg-glass: rgba(31, 30, 27, 0.88);
+  --bg-glass-elevated: rgba(39, 38, 34, 0.96);
+  --bg-glass-hover: rgba(250, 249, 245, 0.05);
+  --bg-active-fill: rgba(217, 119, 87, 0.14);
+  --bg-code: #10100f;
+  --bg-code-bar: #1a1917;
+  --bg-subtle-surface: rgba(250, 249, 245, 0.03);
+  --bg-track: rgba(250, 249, 245, 0.09);
+
+  /* Warm Charcoal Borders & Terracotta Accent */
+  --border-rest: #302f2b;
+  --border-elevated: #45443f;
+  --border-active: #d97757;
+
+  --accent: #d97757;
+  --accent-hover: #e38a6c;
+  --accent-soft: rgba(217, 119, 87, 0.16);
+  --accent-fg: #141413;
+
+  /* Warm Cream & Sand Typography for Long-Form Comfort */
+  --text-primary: #faf9f5;
+  --text-secondary: #d8d5cc;
+  --text-tertiary: #b1ada1;
+  --text-muted: #8a867b;
+
+  /* Primary CTA & Mastered Badge */
+  --inverted-bg: #d97757;
+  --inverted-fg: #141413;
+  --bloom-soft: 0 2px 14px rgba(217, 119, 87, 0.24);
+  --bloom-focus: 0 0 0 2px rgba(217, 119, 87, 0.65);
+
+  /* Geometry & Callouts */
+  --radius-card: 10px;
+  --radius-btn: 7px;
+  --radius-pill: 999px;
+  --callout-pitfall-border: #d97757;
+  --callout-tip-border: #8faf7e;
+
+  /* Character Rig SVG Tokens */
+  --rig-stroke: rgba(250, 249, 245, 0.72);
+  --rig-stroke-soft: rgba(250, 249, 245, 0.24);
+  --rig-accent: #d97757;
+  --rig-fill: #1a1917;
+  --rig-fill-inner: #23221f;
+
+  /* Scrollbar */
+  --scrollbar-thumb: rgba(177, 173, 161, 0.28);
+  --scrollbar-thumb-hover: rgba(217, 119, 87, 0.6);
+
+  /* Typography Families */
+  --font-sans: 'Inter Variable', 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono Variable', 'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, monospace;
+
+  /* Layout Dimensions */
+  --titlebar-height: 42px;
+  --sidebar-width: 252px;
+  --tabbar-height: 40px;
+
+  /* Motion */
+  --ease-cyber: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 150ms;
+}
+
+[data-theme='noir'] {
+  /* Strict Monochrome Void & Glass Palette — Zero Chromatic Leaks */
+  --bg-void: #000000;
+  --bg-sidebar: rgba(6, 6, 6, 0.88);
+  --bg-titlebar: rgba(6, 6, 6, 0.92);
+  --bg-tabbar: rgba(8, 8, 8, 0.85);
+  --bg-glass: rgba(10, 10, 10, 0.78);
+  --bg-glass-elevated: rgba(16, 16, 16, 0.90);
+  --bg-glass-hover: rgba(255, 255, 255, 0.06);
+  --bg-active-fill: rgba(255, 255, 255, 0.12);
+  --bg-code: rgba(4, 4, 4, 0.92);
+  --bg-code-bar: rgba(255, 255, 255, 0.03);
+  --bg-subtle-surface: rgba(255, 255, 255, 0.03);
+  --bg-track: rgba(255, 255, 255, 0.1);
+
+  --border-rest: rgba(255, 255, 255, 0.14);
+  --border-elevated: rgba(255, 255, 255, 0.34);
+  --border-active: #ffffff;
+
+  --accent: #ffffff;
+  --accent-hover: #ffffff;
+  --accent-soft: rgba(255, 255, 255, 0.12);
+  --accent-fg: #000000;
+
+  --text-primary: #ffffff;
+  --text-secondary: #d4d4d8;
+  --text-tertiary: #a1a1aa;
+  --text-muted: #7a7a85;
+
+  --inverted-bg: #ffffff;
+  --inverted-fg: #000000;
+  --bloom-soft: 0 0 18px rgba(255, 255, 255, 0.25);
+  --bloom-focus: 0 0 0 2px rgba(255, 255, 255, 0.65), 0 0 14px rgba(255, 255, 255, 0.28);
+
+  --radius-card: 0px;
+  --radius-btn: 0px;
+  --radius-pill: 0px;
+  --callout-pitfall-border: rgba(255, 255, 255, 0.65);
+  --callout-tip-border: rgba(255, 255, 255, 0.35);
+
+  --rig-stroke: rgba(255, 255, 255, 0.82);
+  --rig-stroke-soft: rgba(255, 255, 255, 0.24);
+  --rig-accent: #ffffff;
+  --rig-fill: #080808;
+  --rig-fill-inner: #101010;
+
+  --scrollbar-thumb: rgba(255, 255, 255, 0.22);
+  --scrollbar-thumb-hover: rgba(255, 255, 255, 0.5);
+}
+
+/* Code Syntax Token Palettes */
+:root,
+[data-code-syntax='colored'] {
+  --tok-kw: #e07a5f;
+  --tok-hook: #e9b872;
+  --tok-fn: #8ab4f8;
+  --tok-type: #e6c280;
+  --tok-tag: #e38d6f;
+  --tok-attr: #c4b5e0;
+  --tok-str: #9dc88d;
+  --tok-num: #e8a87c;
+  --tok-com: #7d7a70;
+  --tok-punct: #9e9a8f;
+  --tok-plain: #edebe4;
+}
+
+[data-code-syntax='monochrome'] {
+  --tok-kw: #ffffff;
+  --tok-hook: #ffffff;
+  --tok-fn: #f4f4f5;
+  --tok-type: #e4e4e7;
+  --tok-tag: #f4f4f5;
+  --tok-attr: #d4d4d8;
+  --tok-str: #b4b4be;
+  --tok-num: #ffffff;
+  --tok-com: #7a7a85;
+  --tok-punct: #8a8a96;
+  --tok-plain: #d4d4d8;
+}
+
+/* Reading Density Presets */
+:root,
+[data-density='comfortable'] {
+  --prose-size: 15px;
+  --prose-lh: 1.75;
+  --code-size: 13px;
+  --code-lh: 1.68;
+  --lesson-max-w: 880px;
+}
+
+[data-density='compact'] {
+  --prose-size: 13.5px;
+  --prose-lh: 1.6;
+  --code-size: 12px;
+  --code-lh: 1.55;
+  --lesson-max-w: 940px;
+}
